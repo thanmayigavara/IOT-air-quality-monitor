@@ -1,0 +1,7 @@
+```mermaid
+flowchart LR
+    PM2.5_Sensor -- Data --> Microcontroller
+    CO2_Sensor -- Data --> Microcontroller
+    Microcontroller -- WiFi --> Cloud_Server
+    Cloud_Server -- API --> Dashboard
+```
